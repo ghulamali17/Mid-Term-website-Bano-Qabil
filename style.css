@@ -1,0 +1,247 @@
+main{
+    padding-left: 60px;
+    padding-right: 60px;
+} 
+ /* Navbar */
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    overflow: auto;
+    position: fixed;
+    top: 0px;
+}
+ul{
+    list-style: none;
+}
+li{
+    float: right;
+}
+.br{
+    float: left;
+    margin-left: -30px;
+}
+nav a{
+    text-decoration: none;
+    background: white;
+    color: rgba(0,0,0,0.6);
+    padding: 0px 12px;
+    margin-right: 12px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a:hover{
+    background-color: lightgray;
+    padding: 5px;
+}
+
+    /* Hero Image */
+.par{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    max-width: 100%;
+}
+.par>div{
+    flex-basis: 400px 476px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 600px){
+    .par>div{
+        flex-basis: 600px 476px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }   
+} 
+@media screen and (min-width: 900px){
+    .par>div{
+        flex-basis: 900px 476px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }   
+}
+@media screen and (min-width: 1200px){
+    .par>div{
+        flex-basis: 1200px 476;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }   
+} 
+  .brtext{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.par>div>div>b{
+    background: rgba(0,0,0,0.6);
+    padding: 10px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+}
+.pad{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+hr{
+    opacity: 0.2;
+}
+
+/* project */
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.imgtext{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    position: absolute;
+    padding: 8px 16px;
+}
+.parent>div{
+    flex-basis: 100%;
+    margin: auto;
+}
+
+@media screen and (min-width: 400px){
+    .parent>div{
+        flex-basis: 100%; 
+    }   
+} 
+@media screen and (min-width: 800px){
+    .parent>div{
+        flex-basis: 48%; 
+    }   
+} 
+
+@media screen and (min-width: 1200px){
+    .parent>div{
+        flex-basis: 24%;
+        box-sizing: border-box; 
+    }  
+} 
+
+
+/* About */
+.parents{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.parents>div{
+    flex-basis: 100%;
+}
+@media screen and (min-width: 400px){
+    .parents>div{
+        flex-basis: 100%; 
+    }   
+} 
+@media screen and (min-width: 800px){
+    .parents>div{
+        flex-basis: 48%; 
+    }   
+} 
+
+@media screen and (min-width: 1200px){
+    .parents>div{
+        flex-basis: 24%; 
+    }   
+} 
+
+
+.btn{
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+
+}
+
+   input[type=text]{
+        width: 100%;
+        padding: 10px;
+        margin: 7px;
+   }
+
+@media screen and (min-width: 600px){
+    input[type=text]{
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+    }   
+} 
+@media screen and (min-width: 900px){
+    input[type=text]{
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+    }
+} 
+@media screen and (min-width: 1200px){
+    input[type=text]{
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+    }
+} 
+
+
+.map{
+    display: flex;
+    flex-wrap: wrap;
+}
+.map>div{
+    flex-basis: 400px 476px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width: 600px){
+    .map>div{
+        flex-basis: 600px 476px;
+        margin-left: auto;
+        margin-right: auto;
+    }   
+} 
+@media screen and (min-width: 800px){
+    .map>div{
+    flex-basis: 800px 476px;
+    margin-left: auto;
+    margin-right: auto;
+    }   
+} 
+
+@media screen and (min-width: 1200px){
+    .map>div{
+        flex-basis: 1200px 476px;
+        margin-left: auto;
+        margin-right: auto;
+    }   
+} 
+.foot{
+    background: black;
+}
+.foot>div{
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
